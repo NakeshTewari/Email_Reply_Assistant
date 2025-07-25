@@ -16,11 +16,10 @@ The **Email Reply Assistant** is a smart tool that automatically generates conte
 
 ## 🛠️ Tech Stack
 
-- **Java 17+**
+- **Java 21+**
 - **Spring Boot 3.x**
 - **Maven**
-- **OpenAI API (or other LLM APIs)**
-- **Mail APIs (SMTP/IMAP or Gmail API)**
+- **Google Gemini API**
 
 ---
 
@@ -39,28 +38,14 @@ email_reply_assistant/
 │   │   └── resources/
 │   │       ├── application.properties
 │   │       └── templates/
+|   |__img.png
 ├── pom.xml
 └── README.md
 
-## ⚙️ Setup & Installation
-
-Follow the steps below to set up the **Email Reply Assistant** backend locally:
+```
 
 ### 🔧 Prerequisites
-
-- Java 17 or above
-- Maven
-- OpenAI API key (or similar LLM provider)
-- Valid email credentials (for SMTP or Gmail API)
 - Internet connection
-
----
-
-### 📥 Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/email_reply_assistant.git
-cd email_reply_assistant
 
 ---
 
@@ -79,6 +64,12 @@ Want to try the Chrome Extension version of the Email Reply Assistant?
 4. Click **Load unpacked**.
 5. Select the unzipped folder.
 6. You're done! 🎉
+```
+# 📧 Email Reply Assistant
+
+![App Demo](src/img.png)
+
+The **Email Reply Assistant** is a smart tool...
 
 
 
